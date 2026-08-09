@@ -15,6 +15,16 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+## Deploy to Vercel
+
+- Framework Preset: `Next.js`
+- Root Directory: `.`
+- Node.js Version: `24.x` (also enforced by `package.json`)
+- Install Command: default `npm install`
+- Build Command: default `npm run build`
+
+Redeploy without the previous build cache after changing the lockfile.
+
 ## Checks
 
 ```bash
