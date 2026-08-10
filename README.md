@@ -1,46 +1,20 @@
 # Safdar Hotel
 
-Official five-page restaurant website for Safdar Hotel, Takht Bhai. Built with Next.js App Router, TypeScript and responsive CSS.
+Safdar Hotel is a traditional restaurant in Takht Bhai, serving authentic local food and warm hospitality since 1935.
 
-Viewport motion is isolated in `components/motion/MotionProvider.tsx`, reusable reveal markup lives in `components/motion/Reveal.tsx`, and all animation/hover rules are kept in `app/motion.css`. The system supports touch layouts and respects `prefers-reduced-motion`.
+## Our Specialities
 
-Search, answer-engine and generative-engine discovery are implemented with the Next.js Metadata API, fully static page output, canonical and social metadata, Restaurant/Menu/FAQ/Breadcrumb JSON-LD, `robots.txt`, `sitemap.xml`, a web manifest and `llms.txt`. Hero media uses `next/image`; the shared food image is served as an optimized WebP asset.
+- Famous Chapli Kabab
+- Mixed BBQ Platter
+- Kabuli Mutton Polaw
+- Chicken and Mutton Karahi
+- Rosh
+- Traditional breakfast and chai
 
-## Run locally
+## Visit Us
 
-```bash
-npm install
-npm run dev
-```
+**Address:** Near Pirano CNG, Main Malakand Road, Takht Bhai  
+**Opening Hours:** Open 24 hours, 7 days a week  
+**Phone:** 0345 9345098
 
-Open [http://localhost:3000](http://localhost:3000).
-
-## Deploy to Vercel
-
-- Framework Preset: `Next.js`
-- Root Directory: `.`
-- Node.js Version: `24.x` (also enforced by `package.json`)
-- Install Command: default `npm install`
-- Build Command: default `npm run build`
-
-Redeploy without the previous build cache after changing the lockfile.
-
-## Checks
-
-```bash
-npm run typecheck
-npm run lint
-npm run build
-npm run test:static
-npm run test
-```
-
-The 53-case Playwright suite runs the site in desktop Chromium and mobile/touch contexts. It covers all routes, navigation, interactive menu tabs, contact actions, image loading, console errors, horizontal overflow, control sizing, browser-extension hydration changes, viewport reveals, reduced-motion behavior, SEO discovery endpoints, structured data, footer credit integrity, lab Core Web Vitals thresholds and visual-review screenshots. Its responsive matrix exercises 320 x 568, 360 x 800, 412 x 915, 768 x 1024 and 844 x 390 layouts. The static suite adds 11 production-output assertions.
-
-Copy the production domain into `SITE_URL` before deployment so canonical URLs, social sharing metadata, the sitemap and JSON-LD use the live origin:
-
-```bash
-SITE_URL=https://www.example.com
-```
-
-Official Facebook and Instagram links should only be added after the client supplies the exact profile URLs.
+© 2026 Safdar Hotel. All Rights Reserved.
